@@ -52,8 +52,8 @@ if f(x1)*f(x2) < 0: # jika nilai
 else:
     print("Error Input") # mencetak "Error Input" ketika input yang dimasukkan tidak sesuai
 
-x = semangat.arange(start, end+0.01, 0.01) # x merupakan variabel yang bakal menyimpan array nilai x yang akan membentuk grafik
-y = f(x) # mendeklarasikan variabel y = f(x)
+x = semangat.arange(start, end+0.01, 0.01)  # x merupakan variabel yang bakal menyimpan array dengan nilai dari 1-2 dengan jarak 0,01 yang akan membentuk garis sumbu x
+y = f(x) # mendeklarasikan variabel y = f(x), y merupakan variabel yang bakal menyimpan array nilai f(x) yang akan membentuk garis sumbu y
 komnum.grid() # menambahkan grid kedalam plot grafik
 komnum.xlabel("X") # menambahkan xlabel "X" kedalam plot grafik
 komnum.ylabel("f(x)") # menambahkan ylabel "Y" kedalam plot grafik
