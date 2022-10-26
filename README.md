@@ -9,7 +9,7 @@ Nama Anggota :
 2.  Fathin Muhashibi Putra (5025211229)
 3.  Dafarel Fatih Wirayudha (5025211120)
 
-## Implementasi Metode Bolzano pada program CPP
+## Implementasi Metode Bolzano pada program Python
 
 Kami mencari sebuah persamaan yang akan diselesaikan dengan metode bolzano yang nantinya akan kami selesaikan dengan program Python.
 Untuk persamaannya sendiri, kami mengambil dari ppt pertemuan ke 2
