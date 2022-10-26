@@ -5,7 +5,7 @@ KomNum B
  
 Kelompok  6
 
-Nama Anggota :
+Anggota :
 1.  M. Armand Giovani (502511054)
 2.  Fathin Muhashibi Putra (5025211229)
 3.  Dafarel Fatih Wirayudha (5025211120)
