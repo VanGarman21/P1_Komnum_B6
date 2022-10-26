@@ -4,6 +4,7 @@ Praktikum 1 Komputasi Numerik
 KomNum B
  
 Kelompok  6
+
 Nama Anggota :
 1.  M. Armand Giovani (502511054)
 2.  Fathin Muhashibi Putra (5025211229)
