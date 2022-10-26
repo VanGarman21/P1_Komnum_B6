@@ -10,6 +10,9 @@ Anggota :
 2.  Fathin Muhashibi Putra (5025211229)
 3.  Dafarel Fatih Wirayudha (5025211120)
 
+## SOAL PRAKTIKUM 1 KOMPUTASI NUMERIK
+![WhatsApp Image 2022-10-26 at 21 03 23](https://user-images.githubusercontent.com/103252800/198047460-8fcbb27a-116d-4974-b22f-7465f6f025f9.jpeg)
+
 ## Implementasi Metode Bolzano pada program Python
 
 Kami mencari sebuah persamaan yang akan diselesaikan dengan metode bolzano. Bahasa pemrograman yang kami gunakan adalah bahasa Python.
