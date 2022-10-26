@@ -52,7 +52,7 @@ if f(x1)*f(x2) < 0: # jika nilai
 else:
     print("Error Input") # mencetak "Error Input" ketika input yang dimasukkan tidak sesuai
 
-x = np.arange(start, end, 0.01) # mendeklarasikan variabel x = np.arange(start, end, 0.01)
+x = np.arange(start, end+0.01, 0.01) # x merupakan variabel yang bakal menyimpan array nilai x yang akan membentuk grafik
 y = f(x) # mendeklarasikan variabel y = f(x)
 plt.grid() # menambahkan grid kedalam plot grafik
 plt.xlabel("X") # menambahkan xlabel "X" kedalam plot grafik
