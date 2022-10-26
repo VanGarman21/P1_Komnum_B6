@@ -3,7 +3,7 @@
 
 # ANALISIS :
 # Membuat sebuah program yang dapat menghitung akar dari persamaan f(x) = x^3 + x^2 – 3x – 3 = 0,
-# kemudian setelah ditemukan perubahan  tanda kita bisa mendapatkan interval baru.
+# kemudian akan ditampilkan tabel iterasi dan grafik perkiraan dari persamaan tersebut.
 
 import numpy as semangat # library numpy yang berfungsi untuk menggenerate angka
 import pandas as praktikum # library pandas untuk membantu dalam pembuatan tabel
@@ -30,7 +30,7 @@ if f(x1)*f(x2) < 0: # jika nilai
 
         tabel_tabulasi.append([x1, x2, x3, f1, f2, f3]) # memasukkan nilai x1, x2, x3, f1, f2,dan f3 kedalam array "tabel_tabulasi"
       
-      # Dilakukan pengecekan untuk menentukan nilai x1 atau x2 berdasarkan nilai hasil perkalian f1*f3.  
+      # Dilakukan pengecekan untuk menentukan nilai x1 atau x2 berdasarkan nilai hasil operasi f1*f3.  
 
         if f1*f3 > 0: # jika nilai f1*f3 > 0, maka
             x1 = x3 # nilai x1 = x3
