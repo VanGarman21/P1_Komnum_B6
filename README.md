@@ -56,7 +56,7 @@ if f(x1)*f(x2) < 0: # jika nilai
         tabel_tabulasi.append([x1, x2, x3, f1, f2, f3]) # memasukkan nilai x1, x2, x3, f1, f2,dan f3 kedalam array "tabel_tabulasi"
 ```
 
-Setelah mendapatkan hasil perhitungan tersebut, program kami akan melakukan pengecekan untuk menentukan nilai x1 atau x2 berdasarkan nilai hasil operasi f1*f3.
+Setelah mendapatkan hasil perhitungan tersebut, program kami akan melakukan pengecekan untuk menentukan nilai `x1` atau `x2` berdasarkan nilai hasil operasi `f1*f3`.
 ```
 if f1*f3 > 0: # jika nilai f1*f3 > 0, maka
             x1 = x3 # nilai x1 = x3
@@ -81,6 +81,8 @@ Selanjutnya, akan dihasilkan grafik yang berisi data-data hasil perhitungan untu
     else:
     print("Error Input") # mencetak "Error Input" ketika input yang dimasukkan tidak sesuai
 ```
+Tabel yang dihasilkan, yaitu sebagai berikut :
+
 
 Terakhir, akan dihasilkan grafik persamaan Metode Bolzano.
 ```
@@ -92,3 +94,4 @@ komnum.ylabel("f(X)") # menambahkan ylabel "Y" kedalam plot grafik
 komnum.plot(x, y) # plot grafik x dan y
 komnum.show() # menampilkan plot grafik 
 ```
+Grafik yang dihasilkan, yaitu sebagai berikut :
