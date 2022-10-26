@@ -95,3 +95,4 @@ komnum.plot(x, y) # plot grafik x dan y
 komnum.show() # menampilkan plot grafik 
 ```
 Grafik yang dihasilkan, yaitu sebagai berikut :
+   ![Screenshot 2022-10-26 204837](https://user-images.githubusercontent.com/100523471/198044873-bbed0f06-4f02-4022-a398-706db8f61313.png)
