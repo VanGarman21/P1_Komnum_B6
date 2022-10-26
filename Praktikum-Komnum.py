@@ -5,9 +5,9 @@
 # Membuat sebuah program yang dapat menghitung akar dari persamaan f(x) = x^3 + x^2 – 3x – 3 = 0,
 # kemudian setelah ditemukan perubahan  tanda kita bisa mendapatkan interval baru.
 
-import numpy as np # library numpy yang berfungsi untuk menggenerate angka
-import pandas as pd # library pandas untuk membantu dalam pembuatan tabel
-import matplotlib.pyplot as plt # library matplotlib untuk membantu dalam pembuatan grafik perkiraan
+import numpy as semangat # library numpy yang berfungsi untuk menggenerate angka
+import pandas as praktikum # library pandas untuk membantu dalam pembuatan tabel
+import matplotlib.pyplot as komnum # library matplotlib untuk membantu dalam pembuatan grafik perkiraan
 
 def f(x): # mendefinisikan fungsi
     return x**3 + x**2 - 3*x - 3 # mengembalikan nilai fungsi f(x) = x^3 + x^2 - 3x - 3 
@@ -42,8 +42,8 @@ if f(x1)*f(x2) < 0: # jika nilai
             break # perulangan berhenti
         
     print("-------------------------------------------------------------")
-    tabel = pd.DataFrame(tabel_tabulasi, columns=['x1', 'x2', 'x3', 'f1', 'f2', 'f3']) # menambahkan nama kolom pada tabel
-    tabel.index = np.arange(1, len(tabel)+1) # memunculkan indeks iterasi ke-.. pada samping tabel
+    tabel = praktikum.DataFrame(tabel_tabulasi, columns=['x1', 'x2', 'x3', 'f(x1)', 'f(x2)', 'f(x3)']) # menambahkan nama kolom pada tabel
+    tabel.index = semangat.arange(1, len(tabel)+1) # memunculkan indeks iterasi ke-.. pada samping tabel
     print(tabel) # mencetak tabel dengan isinya
     print("-------------------------------------------------------------")
     
@@ -52,10 +52,10 @@ if f(x1)*f(x2) < 0: # jika nilai
 else:
     print("Error Input") # mencetak "Error Input" ketika input yang dimasukkan tidak sesuai
 
-x = np.arange(start, end+0.01, 0.01) # x merupakan variabel yang bakal menyimpan array nilai x yang akan membentuk grafik
+x = semangat.arange(start, end+0.01, 0.01) # x merupakan variabel yang bakal menyimpan array nilai x yang akan membentuk grafik
 y = f(x) # mendeklarasikan variabel y = f(x)
-plt.grid() # menambahkan grid kedalam plot grafik
-plt.xlabel("X") # menambahkan xlabel "X" kedalam plot grafik
-plt.ylabel("Y") # menambahkan ylabel "Y" kedalam plot grafik
-plt.plot(x, y) # plot grafik x dan y
-plt.show() # menampilkan plot grafik 
+komnum.grid() # menambahkan grid kedalam plot grafik
+komnum.xlabel("X") # menambahkan xlabel "X" kedalam plot grafik
+komnum.ylabel("f(X)") # menambahkan ylabel "Y" kedalam plot grafik
+komnum.plot(x, y) # plot grafik x dan y
+komnum.show() # menampilkan plot grafik 
