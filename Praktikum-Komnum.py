@@ -56,6 +56,6 @@ x = semangat.arange(start, end+0.01, 0.01) # x merupakan variabel yang bakal men
 y = f(x) # mendeklarasikan variabel y = f(x)
 komnum.grid() # menambahkan grid kedalam plot grafik
 komnum.xlabel("X") # menambahkan xlabel "X" kedalam plot grafik
-komnum.ylabel("f(X)") # menambahkan ylabel "Y" kedalam plot grafik
+komnum.ylabel("f(x)") # menambahkan ylabel "Y" kedalam plot grafik
 komnum.plot(x, y) # plot grafik x dan y
 komnum.show() # menampilkan plot grafik 
