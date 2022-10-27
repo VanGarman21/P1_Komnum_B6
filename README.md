@@ -23,7 +23,7 @@ Untuk persamaannya sendiri, kami mengambil contoh soal dari ppt pertemuan ke 2
 
 Kemudian, kami definisikan fungsi tersebut kedalam program dan juga mendeklarasikan variabel sebagai interval batas-batas persamaan yaitu `x1`, `x2`, dan `x3` (sebagai batas baru). Selanjutnya kami mendeklarasikan `f1`, `f2` dan `f3` sebagai variabel yang menampilkan hasil fungsi dari  `x1`, `x2` dan `x3`. Kami juga mendeklarasikan counter (n) untuk looping iterasi metode bolzano. Selanjutnya kami mendeklarasikan variabel 'start' dan 'end' sebagai interval batas-batas persamaan dalam grafik.
 
-```
+```py
 def f(x): # mendefinisikan fungsi
     return x**3 + x**2 - 3*x - 3 # mengembalikan nilai fungsi f(x) = x^3 + x^2 - 3x - 3 
 
@@ -42,12 +42,11 @@ if f(x1)*f(x2) < 0: # jika nilai
         f1 = f(x1) # menghitung nilai f1, dengan memasukkan nilai x1 pada fungsi persamaan f(x)
         f2 = f(x2) # menghitung nilai f2, dengan memasukkan nilai x2 pada fungsi persamaan f(x)
         f3 = f(x3) # menghitung nilai f3, dengan memasukkan nilai x1 pada fungsi persamaan f(x)
-
 ```
 
 Selanjutnya kami melakukan perhitungan dengan menggunakan looping sesuai dengan prinsip iterasi metode bolzano yang didalanmnya melakukan perhitungan untuk mendapatkan nilai dari `x3`, `f1`, `f2` dan `f3`. Kemudian nantinya hasil perhitungan yang didapatkan akan ditampilkan dalam kolom-kolom tabel yang telah ditentukan.
 
-```
+```py
 if f(x1)*f(x2) < 0: # jika nilai 
     tabel_tabulasi = [] # mendefinisikan array dengan nama "tabel_tabulasi"
     for i in range(n): # melakukan perulangan sejumlah banyak iterasi (n)
@@ -61,7 +60,7 @@ if f(x1)*f(x2) < 0: # jika nilai
 ```
 
 Setelah mendapatkan hasil perhitungan tersebut, program kami akan melakukan pengecekan untuk menentukan nilai `x1` atau `x2` berdasarkan nilai hasil operasi `f1*f3`.
-```
+```py
 if f1*f3 > 0: # jika nilai f1*f3 > 0, maka
             x1 = x3 # nilai x1 = x3
             
@@ -73,7 +72,7 @@ if f1*f3 > 0: # jika nilai f1*f3 > 0, maka
 ```
 
 Selanjutnya, akan dihasilkan grafik yang berisi data-data hasil perhitungan untuk menentukan akar-akar persamaan dengan Metode Bolzano.
-```
+```py
    print("-------------------------------------------------------------")
     tabel = praktikum.DataFrame(tabel_tabulasi, columns=['x1', 'x2', 'x3', 'f(x1)', 'f(x2)', 'f(x3)']) # menambahkan nama kolom pada tabel
     tabel.index = semangat.arange(1, len(tabel)+1) # memunculkan indeks iterasi ke-.. pada samping tabel
@@ -87,9 +86,10 @@ Selanjutnya, akan dihasilkan grafik yang berisi data-data hasil perhitungan untu
 ```
 Tabel yang dihasilkan, yaitu sebagai berikut :
 
+![Screenshot 2022-10-27 075703](https://user-images.githubusercontent.com/100523471/198166210-6fe24c0d-e644-4160-aba6-1fd4492d03db.png)
 
 Terakhir, akan dihasilkan grafik persamaan Metode Bolzano.
-```
+```py
 x = semangat.arange(start, end+0.01, 0.01) # x merupakan variabel yang bakal menyimpan array nilai x yang akan membentuk grafik
 y = f(x) # mendeklarasikan variabel y = f(x)
 komnum.grid() # menambahkan grid kedalam plot grafik
